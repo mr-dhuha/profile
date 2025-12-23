@@ -6,6 +6,9 @@
     <title>Ahmad Dhuha Habibullah | Environmental Systems & Data Consultant</title>
     <meta name="description" content="Environmental Systems & Data Consultant based in Jakarta. Specializing in AWS, marine sensors, and turning weather/ocean data into decisions.">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="https://raw.githubusercontent.com/mr-dhuha/profile/main/ADH%20logo.svg">
+
     <!-- Fonts: Inter for that clean, corporate look -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,9 +66,10 @@
     <nav class="fixed w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 z-50">
         <div class="container-custom h-20 flex items-center justify-between">
             <!-- Logo / Name -->
-            <a href="#" class="flex items-center">
+            <a href="#" class="flex items-center gap-3 group">
                 <!-- Using raw.githubusercontent.com to ensure the SVG renders correctly -->
                 <img src="https://raw.githubusercontent.com/mr-dhuha/profile/main/ADH%20logo.svg" alt="ADH Logo" class="h-10 w-auto">
+                <span class="font-bold text-slate-900 tracking-tight group-hover:text-brand-600 transition-colors">Ahmad Dhuha Habibullah</span>
             </a>
 
             <!-- Desktop Menu -->
@@ -76,9 +80,9 @@
                 <a href="#contact" class="px-4 py-2 bg-slate-900 text-white rounded hover:bg-brand-600 self-center">Contact</a>
             </div>
 
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-600 hover:text-slate-900">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <!-- Mobile Menu Button (Replaced SVG with Text) -->
+            <button id="mobile-menu-btn" class="md:hidden px-3 py-1 text-xs font-bold tracking-widest uppercase border border-slate-200 rounded text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors">
+                Menu
             </button>
         </div>
 
@@ -94,26 +98,25 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="pt-32 pb-20 md:pt-48 md:pb-32 bg-white">
+    <header class="pt-24 pb-12 md:pt-32 md:pb-20 bg-white">
         <div class="container-custom">
             <div class="max-w-3xl">
-                <p class="text-brand-600 font-semibold tracking-wide uppercase text-sm mb-4">
+                <p class="text-brand-600 font-semibold tracking-wide uppercase text-sm mb-3">
                     Based in Jakarta, Working Globally
                 </p>
-                <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
+                <h1 class="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">
                     Environmental Systems & <br>Data Consultant.
                 </h1>
-                <p class="text-xl md:text-2xl text-slate-600 leading-relaxed font-light mb-10 max-w-2xl">
+                <p class="text-lg md:text-xl text-slate-600 leading-relaxed font-light mb-8 max-w-2xl">
                     I design and deploy reliable environmental monitoring systems and turn weather and ocean data into operational decisions.
                 </p>
                 
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="https://wa.me/6285383758546" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-brand-600 text-white font-medium rounded hover:bg-brand-900">
-                        <!-- WhatsApp Icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <a href="https://wa.me/6285383758546" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-brand-600 text-white font-medium rounded hover:bg-brand-900 text-sm">
+                        <!-- Icon removed as requested -->
                         Contact via WhatsApp
                     </a>
-                    <a href="#portfolio" class="inline-flex items-center justify-center px-8 py-4 bg-white border border-slate-300 text-slate-700 font-medium rounded hover:bg-slate-50 hover:border-slate-400">
+                    <a href="#portfolio" class="inline-flex items-center justify-center px-6 py-3 bg-white border border-slate-300 text-slate-700 font-medium rounded hover:bg-slate-50 hover:border-slate-400 text-sm">
                         View Portfolio
                     </a>
                 </div>
@@ -122,12 +125,12 @@
     </header>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 bg-slate-50 border-t border-slate-200">
+    <section id="services" class="py-12 bg-slate-50 border-t border-slate-200">
         <div class="container-custom">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
                 <div>
-                    <h2 class="text-3xl font-bold text-slate-900 mb-4">Core Services</h2>
-                    <p class="text-slate-600 max-w-xl">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-2">Core Services</h2>
+                    <p class="text-slate-600 max-w-xl text-sm">
                         Specialized technical services for government, research, and industrial applications.
                     </p>
                 </div>
@@ -135,14 +138,11 @@
                 <div class="hidden md:block h-px bg-slate-300 w-1/3 mb-2"></div>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-3 gap-6">
                 <!-- Service 1 -->
-                <div class="bg-white p-8 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group">
-                    <div class="w-12 h-12 bg-slate-100 rounded flex items-center justify-center mb-6 group-hover:bg-brand-50">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-700 group-hover:text-brand-600"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/><path d="M2 12h20"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Environmental Monitoring Systems</h3>
-                    <ul class="space-y-2 text-slate-600 text-sm leading-relaxed">
+                <div class="bg-white p-6 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group">
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Environmental Monitoring Systems</h3>
+                    <ul class="space-y-1.5 text-slate-600 text-sm leading-relaxed">
                         <li>• Custom AWS & marine monitoring systems</li>
                         <li>• Sensor integration & calibration</li>
                         <li>• Coastal, offshore, & remote deployments</li>
@@ -150,12 +150,9 @@
                 </div>
 
                 <!-- Service 2 -->
-                <div class="bg-white p-8 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group">
-                    <div class="w-12 h-12 bg-slate-100 rounded flex items-center justify-center mb-6 group-hover:bg-brand-50">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-700 group-hover:text-brand-600"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 16v.01"/><path d="M12 12v.01"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">IoT Telemetry & Data Logging</h3>
-                    <ul class="space-y-2 text-slate-600 text-sm leading-relaxed">
+                <div class="bg-white p-6 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group">
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">IoT Telemetry & Data Logging</h3>
+                    <ul class="space-y-1.5 text-slate-600 text-sm leading-relaxed">
                         <li>• Data logger & gateway design</li>
                         <li>• Reliable telemetry & data pipelines</li>
                         <li>• Real-time & delayed transmission systems</li>
@@ -163,25 +160,19 @@
                 </div>
 
                 <!-- Service 3 -->
-                <div class="bg-white p-8 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group">
-                    <div class="w-12 h-12 bg-slate-100 rounded flex items-center justify-center mb-6 group-hover:bg-brand-50">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-700 group-hover:text-brand-600"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Data Analysis & Decision Support</h3>
-                    <ul class="space-y-2 text-slate-600 text-sm leading-relaxed">
+                <div class="bg-white p-6 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group">
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Data Analysis & Decision Support</h3>
+                    <ul class="space-y-1.5 text-slate-600 text-sm leading-relaxed">
                         <li>• Weather, climate, & ocean data analysis</li>
                         <li>• Tropical cyclone & marine heatwave studies</li>
                         <li>• Event-based & risk-focused analysis</li>
                     </ul>
                 </div>
                 
-                <!-- Service 4 (Technical Advisory) - Full width on mobile, spans columns on large -->
-                 <div class="bg-white p-8 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group md:col-span-3 lg:col-span-1 lg:col-start-2 border-t-4 border-t-slate-200 lg:border-t lg:border-t-slate-200">
-                    <div class="w-12 h-12 bg-slate-100 rounded flex items-center justify-center mb-6 group-hover:bg-brand-50">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-700 group-hover:text-brand-600"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Technical Advisory</h3>
-                    <ul class="space-y-2 text-slate-600 text-sm leading-relaxed">
+                <!-- Service 4 (Technical Advisory) -->
+                 <div class="bg-white p-6 border border-slate-200 rounded-sm hover:border-brand-600 transition-colors group md:col-span-3 lg:col-span-1 lg:col-start-2 border-t-4 border-t-slate-200 lg:border-t lg:border-t-slate-200">
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Technical Advisory</h3>
+                    <ul class="space-y-1.5 text-slate-600 text-sm leading-relaxed">
                         <li>• System architecture review</li>
                         <li>• Troubleshooting & audits</li>
                         <li>• Remote & on-site consulting</li>
@@ -192,26 +183,26 @@
     </section>
 
     <!-- Why Work With Me -->
-    <section class="py-20 bg-white">
+    <section class="py-12 bg-white">
         <div class="container-custom">
-            <div class="border-l-4 border-brand-600 pl-8 py-2">
-                <h2 class="text-2xl font-bold text-slate-900 mb-6">Why Work With Me</h2>
-                <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+            <div class="border-l-4 border-brand-600 pl-6 py-1">
+                <h2 class="text-xl font-bold text-slate-900 mb-4">Why Work With Me</h2>
+                <div class="grid md:grid-cols-2 gap-x-10 gap-y-4">
                     <div>
-                        <h4 class="font-bold text-slate-800 mb-2">Operational Expertise</h4>
-                        <p class="text-slate-600 text-sm">Experience in operational meteorology and oceanography, ensuring data isn't just collected, but usable.</p>
+                        <h4 class="font-bold text-slate-800 mb-1 text-sm">Operational Expertise</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Experience in operational meteorology and oceanography, ensuring data isn't just collected, but usable.</p>
                     </div>
                     <div>
-                        <h4 class="font-bold text-slate-800 mb-2">Engineering Background</h4>
-                        <p class="text-slate-600 text-sm">Strong foundation in engineering and system integration, bridging the gap between hardware and software.</p>
+                        <h4 class="font-bold text-slate-800 mb-1 text-sm">Engineering Background</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Strong foundation in engineering and system integration, bridging the gap between hardware and software.</p>
                     </div>
                     <div>
-                        <h4 class="font-bold text-slate-800 mb-2">Mission-Critical Trust</h4>
-                        <p class="text-slate-600 text-sm">Trusted in government and high-stakes environments where system failure is not an option.</p>
+                        <h4 class="font-bold text-slate-800 mb-1 text-sm">Mission-Critical Trust</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Trusted in government and high-stakes environments where system failure is not an option.</p>
                     </div>
                     <div>
-                        <h4 class="font-bold text-slate-800 mb-2">Practical Solutions</h4>
-                        <p class="text-slate-600 text-sm">Focus on practical, deployable solutions rather than theoretical models that fail in the field.</p>
+                        <h4 class="font-bold text-slate-800 mb-1 text-sm">Practical Solutions</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Focus on practical, deployable solutions rather than theoretical models that fail in the field.</p>
                     </div>
                 </div>
             </div>
@@ -219,27 +210,27 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="py-20 bg-slate-50 border-t border-slate-200">
+    <section id="portfolio" class="py-12 bg-slate-50 border-t border-slate-200">
         <div class="container-custom">
-            <h2 class="text-3xl font-bold text-slate-900 mb-12">Selected Work</h2>
+            <h2 class="text-2xl font-bold text-slate-900 mb-8">Selected Work</h2>
 
-            <div class="space-y-8">
+            <div class="space-y-4">
                 <!-- Project 1 -->
-                <div class="bg-white border border-slate-200 p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-4">
+                <div class="bg-white border border-slate-200 p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-3">
                         <div>
-                            <span class="text-xs font-bold tracking-wider text-brand-600 uppercase">Monitoring Systems</span>
-                            <h3 class="text-2xl font-bold text-slate-900 mt-1">AWS & Marine Sensor Deployments</h3>
+                            <span class="text-[10px] font-bold tracking-wider text-brand-600 uppercase">Monitoring Systems</span>
+                            <h3 class="text-xl font-bold text-slate-900">AWS & Marine Sensor Deployments</h3>
                         </div>
                     </div>
-                    <div class="grid md:grid-cols-3 gap-8 mt-6">
+                    <div class="grid md:grid-cols-3 gap-6 mt-4">
                         <div>
-                            <p class="text-sm font-semibold text-slate-900">Role</p>
-                            <p class="text-slate-600">Lead System Integrator</p>
+                            <p class="text-xs font-semibold text-slate-900">Role</p>
+                            <p class="text-slate-600 text-sm">Lead System Integrator</p>
                         </div>
                         <div class="md:col-span-2">
-                            <p class="text-sm font-semibold text-slate-900 mb-2">Key Outcomes</p>
-                            <p class="text-slate-600 leading-relaxed">
+                            <p class="text-xs font-semibold text-slate-900 mb-1">Key Outcomes</p>
+                            <p class="text-slate-600 text-sm leading-relaxed">
                                 Executed nationwide and coastal installations of automated weather stations. Focused on operational data reliability and hardening systems against harsh environmental conditions.
                             </p>
                         </div>
@@ -247,21 +238,21 @@
                 </div>
 
                 <!-- Project 2 -->
-                <div class="bg-white border border-slate-200 p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-4">
+                <div class="bg-white border border-slate-200 p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-3">
                         <div>
-                            <span class="text-xs font-bold tracking-wider text-brand-600 uppercase">Data & Analysis</span>
-                            <h3 class="text-2xl font-bold text-slate-900 mt-1">Cyclone & Heatwave Analysis</h3>
+                            <span class="text-[10px] font-bold tracking-wider text-brand-600 uppercase">Data & Analysis</span>
+                            <h3 class="text-xl font-bold text-slate-900">Cyclone & Heatwave Analysis</h3>
                         </div>
                     </div>
-                    <div class="grid md:grid-cols-3 gap-8 mt-6">
+                    <div class="grid md:grid-cols-3 gap-6 mt-4">
                         <div>
-                            <p class="text-sm font-semibold text-slate-900">Role</p>
-                            <p class="text-slate-600">Data Analyst</p>
+                            <p class="text-xs font-semibold text-slate-900">Role</p>
+                            <p class="text-slate-600 text-sm">Data Analyst</p>
                         </div>
                         <div class="md:col-span-2">
-                            <p class="text-sm font-semibold text-slate-900 mb-2">Key Outcomes</p>
-                            <p class="text-slate-600 leading-relaxed">
+                            <p class="text-xs font-semibold text-slate-900 mb-1">Key Outcomes</p>
+                            <p class="text-slate-600 text-sm leading-relaxed">
                                 Conducted in-depth analysis of tropical cyclone intensity and environmental factors. Developed characterization models for marine heatwave detection to support early warning systems.
                             </p>
                         </div>
@@ -269,21 +260,21 @@
                 </div>
 
                 <!-- Project 3 -->
-                <div class="bg-white border border-slate-200 p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-4">
+                <div class="bg-white border border-slate-200 p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-3">
                         <div>
-                            <span class="text-xs font-bold tracking-wider text-brand-600 uppercase">Visualization</span>
-                            <h3 class="text-2xl font-bold text-slate-900 mt-1">Operational Dashboards</h3>
+                            <span class="text-[10px] font-bold tracking-wider text-brand-600 uppercase">Visualization</span>
+                            <h3 class="text-xl font-bold text-slate-900">Operational Dashboards</h3>
                         </div>
                     </div>
-                    <div class="grid md:grid-cols-3 gap-8 mt-6">
+                    <div class="grid md:grid-cols-3 gap-6 mt-4">
                         <div>
-                            <p class="text-sm font-semibold text-slate-900">Role</p>
-                            <p class="text-slate-600">Technical Consultant</p>
+                            <p class="text-xs font-semibold text-slate-900">Role</p>
+                            <p class="text-slate-600 text-sm">Technical Consultant</p>
                         </div>
                         <div class="md:col-span-2">
-                            <p class="text-sm font-semibold text-slate-900 mb-2">Key Outcomes</p>
-                            <p class="text-slate-600 leading-relaxed">
+                            <p class="text-xs font-semibold text-slate-900 mb-1">Key Outcomes</p>
+                            <p class="text-slate-600 text-sm leading-relaxed">
                                 Created decision-support visualizations and broadcast-ready meteorological systems. Reduced data interpretation time for operational teams by streamlining complex datasets into clear dashboards.
                             </p>
                         </div>
@@ -294,25 +285,29 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 bg-white">
+    <section id="about" class="py-12 bg-white">
         <div class="container-custom">
-            <div class="grid md:grid-cols-12 gap-12">
-                <div class="md:col-span-4">
-                    <h2 class="text-3xl font-bold text-slate-900 mb-6">About Me</h2>
-                    <!-- Placeholder for professional headshot if available, otherwise just text layout -->
-                    <div class="bg-slate-100 h-64 w-full flex items-center justify-center border border-slate-200 rounded-sm">
-                        <span class="text-slate-400 font-medium text-sm">[Professional Headshot]</span>
+            <div class="grid md:grid-cols-12 gap-8">
+                <div class="md:col-span-4 flex justify-center md:justify-start">
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-4">About Me</h2>
+                        <!-- Professional Headshot -->
+                        <div class="relative inline-block">
+                            <img src="https://raw.githubusercontent.com/mr-dhuha/profile/main/adh%20profile%20picture.png" 
+                                 alt="Ahmad Dhuha Habibullah" 
+                                 class="w-40 h-40 object-cover rounded-full border-4 border-slate-50 shadow-lg ring-1 ring-slate-200/50">
+                        </div>
                     </div>
                 </div>
                 <div class="md:col-span-8">
-                    <p class="text-lg text-slate-700 leading-relaxed mb-8">
+                    <p class="text-base text-slate-700 leading-relaxed mb-6">
                         I am an Environmental Systems & Data Consultant with a background in meteorology, oceanography, and system integration. My work bridges the gap between physical field monitoring systems, rigorous environmental data analysis, and operational decision-making.
                     </p>
                     
-                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div class="grid md:grid-cols-2 gap-6 mb-4">
                         <div>
-                            <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">Background</h3>
-                            <ul class="space-y-2 text-slate-700">
+                            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Background</h3>
+                            <ul class="space-y-1.5 text-slate-700 text-sm">
                                 <li class="flex items-start"><span class="mr-2 text-brand-600">/</span> Environmental monitoring systems</li>
                                 <li class="flex items-start"><span class="mr-2 text-brand-600">/</span> Marine-meteorological operations</li>
                                 <li class="flex items-start"><span class="mr-2 text-brand-600">/</span> Data integration and visualization</li>
@@ -320,8 +315,8 @@
                             </ul>
                         </div>
                         <div>
-                            <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">How I Work</h3>
-                            <ul class="space-y-2 text-slate-700">
+                            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">How I Work</h3>
+                            <ul class="space-y-1.5 text-slate-700 text-sm">
                                 <li class="flex items-start"><span class="mr-2 text-brand-600">1.</span> Understand the decision or problem</li>
                                 <li class="flex items-start"><span class="mr-2 text-brand-600">2.</span> Design the appropriate system or analysis</li>
                                 <li class="flex items-start"><span class="mr-2 text-brand-600">3.</span> Deliver clear, usable results</li>
@@ -335,60 +330,60 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-slate-900 text-white">
+    <section id="contact" class="py-12 bg-slate-900 text-white">
         <div class="container-custom">
-            <div class="grid md:grid-cols-2 gap-16 items-start">
+            <div class="grid md:grid-cols-2 gap-8 items-start">
                 <div>
-                    <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
-                    <p class="text-slate-400 mb-8 text-lg">
+                    <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+                    <p class="text-slate-400 mb-6 text-sm">
                         Available for project-based consulting, system design, analysis, and technical advisory.
                     </p>
                     
-                    <div class="space-y-6">
+                    <div class="space-y-4">
                         <div class="flex items-center">
-                            <div class="w-10 flex justify-center text-brand-600 mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <div class="w-8 flex justify-center text-brand-600 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                             </div>
                             <div>
-                                <p class="text-xs text-slate-500 uppercase tracking-wide">Email</p>
-                                <a href="mailto:mrdhuhaofficial@gmail.com" class="text-lg font-medium hover:text-brand-100 transition-colors">mrdhuhaofficial@gmail.com</a>
+                                <p class="text-[10px] text-slate-500 uppercase tracking-wide">Email</p>
+                                <a href="mailto:mrdhuhaofficial@gmail.com" class="text-base font-medium hover:text-brand-100 transition-colors">mrdhuhaofficial@gmail.com</a>
                             </div>
                         </div>
 
                         <div class="flex items-center">
-                            <div class="w-10 flex justify-center text-brand-600 mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <div class="w-8 flex justify-center text-brand-600 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                             </div>
                             <div>
-                                <p class="text-xs text-slate-500 uppercase tracking-wide">WhatsApp</p>
-                                <a href="https://wa.me/6285383758546" class="text-lg font-medium hover:text-brand-100 transition-colors">+62 853 8375 8546</a>
+                                <p class="text-[10px] text-slate-500 uppercase tracking-wide">WhatsApp</p>
+                                <a href="https://wa.me/6285383758546" class="text-base font-medium hover:text-brand-100 transition-colors">+62 853 8375 8546</a>
                             </div>
                         </div>
 
                         <div class="flex items-center">
-                            <div class="w-10 flex justify-center text-brand-600 mr-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div class="w-8 flex justify-center text-brand-600 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                             </div>
                             <div>
-                                <p class="text-xs text-slate-500 uppercase tracking-wide">Location</p>
-                                <p class="text-lg font-medium">Jakarta, Indonesia</p>
+                                <p class="text-[10px] text-slate-500 uppercase tracking-wide">Location</p>
+                                <p class="text-base font-medium">Jakarta, Indonesia</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Static Contact Card (No Backend Form) -->
-                <div class="bg-slate-800 p-8 rounded-sm border border-slate-700">
-                    <h3 class="text-xl font-bold text-white mb-4">Start a Conversation</h3>
-                    <p class="text-slate-400 mb-8 leading-relaxed">
-                        I am currently accepting new projects. Click below to send an email directly or chat via WhatsApp to discuss your requirements.
+                <div class="bg-slate-800 p-6 rounded-sm border border-slate-700">
+                    <h3 class="text-lg font-bold text-white mb-2">Start a Conversation</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed text-sm">
+                        I am currently accepting new projects. Click below to send an email directly or chat via WhatsApp.
                     </p>
                     
-                    <div class="space-y-4">
-                        <a href="mailto:mrdhuhaofficial@gmail.com" class="block w-full bg-brand-600 text-white font-medium py-4 rounded text-center hover:bg-brand-500 transition-colors">
+                    <div class="space-y-3">
+                        <a href="mailto:mrdhuhaofficial@gmail.com" class="block w-full bg-brand-600 text-white font-medium py-3 rounded text-center hover:bg-brand-500 transition-colors text-sm">
                             Send an Email
                         </a>
-                        <a href="https://wa.me/6285383758546" target="_blank" class="block w-full bg-transparent border border-slate-600 text-white font-medium py-4 rounded text-center hover:bg-slate-700 transition-colors">
+                        <a href="https://wa.me/6285383758546" target="_blank" class="block w-full bg-transparent border border-slate-600 text-white font-medium py-3 rounded text-center hover:bg-slate-700 transition-colors text-sm">
                             Chat on WhatsApp
                         </a>
                     </div>
@@ -398,13 +393,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-950 text-slate-500 py-12 border-t border-slate-900">
+    <footer class="bg-slate-950 text-slate-500 py-8 border-t border-slate-900">
         <div class="container-custom text-center md:text-left flex flex-col md:flex-row justify-between items-center">
-            <div class="mb-4 md:mb-0">
-                <p class="font-bold text-white mb-1">Ahmad Dhuha Habibullah</p>
-                <p class="text-sm">Environmental Systems & Data Consultant</p>
+            <div class="mb-3 md:mb-0">
+                <p class="font-bold text-white text-sm mb-0.5">Ahmad Dhuha Habibullah</p>
+                <p class="text-xs">Environmental Systems & Data Consultant</p>
             </div>
-            <div class="text-sm">
+            <div class="text-xs">
                 &copy; <script>document.write(new Date().getFullYear())</script> Ahmad Dhuha Habibullah. All rights reserved.
             </div>
         </div>
